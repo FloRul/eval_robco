@@ -8,6 +8,7 @@ import websocket
 
 class RobcoRunner(ModelRunner):
     def __init__(self, ws_address: str, *args, **kwargs):
+        assert ws_address is not None, "WebSocket address must be provided"
         self.ws_address = ws_address
         self.ws = None
         self.connect()
