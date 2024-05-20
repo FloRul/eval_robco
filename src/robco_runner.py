@@ -1,9 +1,14 @@
-﻿from pathlib import Path
-import time
-from typing import Optional, Tuple, Union
+﻿import time
+from typing import Optional, Tuple
 from fmeval.model_runners.model_runner import ModelRunner
 import json
 import websocket
+import logging
+
+from utils import ThrottledWebSocket
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 class RobcoRunner(ModelRunner):
@@ -14,8 +19,12 @@ class RobcoRunner(ModelRunner):
         self.connect()
 
     def connect(self):
-        conn = websocket.create_connection(self.ws_address, timeout=60)
-        self.ws = conn
+        try:
+            conn = websocket.create_connection(self.ws_address, timeout=60)
+            self.ws = ThrottledWebSocket(conn)
+            logger.info(f"Connected to WebSocket at {self.ws_address}")
+        except Exception as e:
+            logger.error(f"Failed to connect to WebSocket: {e}")
 
     def __getstate__(self):
         state = self.__dict__.copy()
@@ -33,17 +42,14 @@ class RobcoRunner(ModelRunner):
         request_json = json.dumps(request_params)
 
         try:
-            # Send the request
             self.ws.send(request_json)
-            # Receive the response
             response_json = self.ws.recv()
-            # Convert the JSON string to a dictionary
             response_dict = json.loads(response_json)
-            # Extract the result from the response dictionary
             result = response_dict.get("message")
+            logger.info(f"Received response: {result}")
             return result, None
         except websocket.WebSocketTimeoutException:
-            print("WebSocket timeout, retrying...")
+            logger.warning("WebSocket timeout, retrying...")
             time.sleep(5)  # Wait before retrying
             self.connect()  # Reconnect the WebSocket
             try:
@@ -51,10 +57,11 @@ class RobcoRunner(ModelRunner):
                 response_json = self.ws.recv()
                 response_dict = json.loads(response_json)
                 result = response_dict.get("message")
+                logger.info(f"Received response after retry: {result}")
                 return result, None
             except Exception as e:
-                print(f"Failed after retry: {e}")
+                logger.error(f"Failed after retry: {e}")
                 return None, None
         except Exception as e:
-            print(f"An error occurred: {e}")
+            logger.error(f"An error occurred: {e}")
             return None, None

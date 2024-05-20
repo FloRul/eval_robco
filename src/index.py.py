@@ -42,7 +42,12 @@ def run_test(config: DataConfig = None) -> None:
     ]
 
     for algo in algos:
-        res = algo.evaluate(model=model_runner, save=True, dataset_config=config)
+        res = algo.evaluate(
+            model=model_runner,
+            save=True,
+            dataset_config=config,
+            num_records=60,
+        )
         print(res)
 
 
@@ -58,9 +63,10 @@ def main():
     #     )
     load_dotenv()
     os.environ["EVAL_RESULTS_PATH"] = "./src/results"
+    os.environ["PARALLELIZATION_FACTOR"] = "1"
     config = DataConfig(
         dataset_name="custom_dataset",
-        dataset_uri="src/datasets/working_dataset.jsonl",
+        dataset_uri="src/datasets/working_dataset_with_intent.jsonl",
         dataset_mime_type="application/jsonlines",
         model_input_location="Question",
         model_output_location="generated_answer",

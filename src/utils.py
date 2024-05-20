@@ -2,6 +2,7 @@
 import csv
 import json
 import os
+import logging
 
 
 def csv_to_jsonl(csv_file_path: str, jsonl_file_path: str):
@@ -29,3 +30,36 @@ def get_salt():
     # Generate a salt of 16 bytes
     salt = os.urandom(4)
     return binascii.hexlify(salt).decode()
+
+
+import queue
+import threading
+import time
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+class ThrottledWebSocket:
+    def __init__(self, ws):
+        self.ws = ws
+        self.queue = queue.Queue()
+        self.thread = threading.Thread(target=self._send_loop)
+        self.thread.daemon = True
+        self.thread.start()
+
+    def send(self, message):
+        self.queue.put(message)
+
+    def recv(self):
+        return self.ws.recv()
+
+    def _send_loop(self):
+        while True:
+            message = self.queue.get()
+            try:
+                self.ws.send(message)
+                logger.info(f"Message sent: {message}")
+                time.sleep(float(os.environ.get("WS_THROTTLE")))  # throttle rate
+            except Exception as e:
+                logger.error(f"Error sending message: {e}")
