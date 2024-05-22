@@ -1,0 +1,167 @@
+Question,Reponse
+Que sont les données ouvertes?,"Les données ouvertes sont des données numériques diffusées de manière structurée selon une méthode et avec une licence ouverte garantissant leur libre accès et leur réutilisation. Les données ouvertes sont des données brutes, sans mise en forme, généralement extraites de systèmes d’information.
+Ce lien ouvrira dans une nouvelle fenêtre."
+Qu’est-ce que le portail Données Québec?,"Donneesquebec.ca est un portail commun résultant d’une collaboration entre le gouvernement du Québec et plusieurs municipalités afin de fournir aux citoyens une seule porte d’entrée aux jeux de données ouvertes du Québec.
+
+Plus précisément, le portail vise à :
+
+offrir un meilleur accès aux données ouvertes d’intérêt public;
+accorder aux citoyens la possibilité d’interagir avec les organisations diffusant les données;
+simplifier l’utilisation et le croisement des données;
+mettre en valeur le potentiel des données ouvertes;
+accroître la transparence des administrations publiques."
+Est-ce que Données Québec s’inscrit dans le cadre du gouvernement ouvert?,"Oui. Le gouvernement ouvert se base sur quatre principes clés : la transparence, l’innovation, la participation et la collaboration. Plus précisément, le portail vise à :offrir un meilleur accès aux données ouvertes d’intérêt public;accorder aux citoyens la possibilité d’interagir avec les organisations qui diffusent les données;simplifier l’utilisation et le croisement des données;mettre en valeur le potentiel des données ouvertes;accroître la transparence des administrations publiques.Données Québec a été lancé en 2016 dans le cadre de la Stratégie gouvernementale en technologies de l’information, dont l’axe 4 visait à rapprocher l’État des citoyens. Par la suite, de nombreuses actions en matière de gouvernement ouvert ont été mises de l’avant par les partenaires de Données Québec. Voyez celles du gouvernement du Québec sur Québec.ca/GouvernementOuvert."
+Comment diffuser des données ouvertes?,"La diffusion de données ouvertes s’effectue en quatre étapes :Contacter Données Québec. Dès le début de la réflexion, il est important de signifier son intérêt à pilote@donneesquebec.ca afin de disposer de toute l’information nécessaire à la diffusion :Pour les organismes publics du gouvernement du Québec, votre adhésion est automatique.Pour les municipalités, le formulaire d’adhésion à l’entente pour les municipalités doit être signé et nous être transmis. Il est souhaitable qu’une résolution du conseil municipal soit obtenue pour désigner le signataire de l’entente.Pour les autres organisations, le formulaire d’adhésion pour les organismes doit être signé par la personne autorisée et nous être transmis.Identifier et prioriser les données à hautes valeur de réutilisation. Le Guide de priorisation et de diffusion des données ouvertes a pour objectif d’orienter et d’accompagner les organismes publics du gouvernement du Québec dans l’identification et la priorisation. Les autres organisations peuvent également s’en inspirer.Préparer les jeux de données en respectant les normes techniques. Le document Lignes directrices sur la diffusion de données ouvertesCe lien ouvrira dans une nouvelle fenêtre. présente les normes techniques auxquelles les données doivent correspondre afin d’être déposées sur le portail. Les normes retenues sont le produit d’un travail collaboratif entre des organisations diffusant sur Données Québec et elles s’inspirent fortement des standards internationaux en matière de données ouvertes.Diffuser les jeux sur Données Québec. Lors de leur adhésion, les organisations se verront assigner un compte sur Données Québec. Au besoin, de la documentation est disponible pour appuyer les diffuseurs dans la mise en ligne de jeux de données."
+Que sont les données d’intérêt pour le public?,"La Charte internationale sur les données ouvertesCe lien ouvrira dans une nouvelle fenêtre.  énonce que les données ouvertes permettent notamment de renforcer les externalités économiques positives et le développement social pour tous les membres de la société. Dans cette perspective, les données ouvertes représentent un bien public de premier plan dont les citoyens peuvent se servir pour produire de la valeur, adopter de nouvelles perspectives, formuler des idées et créer de nouveaux services.
+
+C’est sur cette définition que Données Québec se base pour admettre un nouveau diffuseur de la société civile."
+Est-ce que de nouvelles données ouvertes seront publiées dans ce site dans l’avenir?,"Le site est évolutif.Au fil du temps, de nouveaux jeux de données ouvertes, de même que de nouvelles applications, seront ajoutés.Abonnez-vous au fil RSS pour être au courant des nouveautés."
+Suis-je au bon endroit pour obtenir de l’information sur les services gouvernementaux ou municipaux?,"Le site Données Québec concerne les données ouvertes et leur exploitation. Si vous avez des questions à propos d’un service public offert par un organisme gouvernemental ou municipal et qui ne concerne pas les données ouvertes, nous vous suggérons de vous adresser à l’organisme public ou à la municipalité en question par l’intermédiaire de leur site officiel."
+Quelle structure technologique supporte Données Québec?,"Données Québec est basé sur le logiciel libre CKAN  supporté par la fondation internationale Open Knowledge Foundation . CKAN est utilisé par des gouvernements locaux et nationaux ainsi que des groupes d’utilisateurs dans le monde entier, qui veulent mettre à la disposition des citoyens leurs données, en plus de permettre le fonctionnement d’une variété de portails officiels et communautaires. Vous pouvez accéder au code source ayant servi à la conception du portail en cliquant ici .
+
+
+L’environnement graphique du site repose sur le logiciel libre WordPress . Ce logiciel est un système de gestion de contenu, ou CMS (content management system), utilisé dans le monde entier autant pour des blogues personnels et des sites commerciaux que pour des portails gouvernementaux.
+
+La solution Infrastructure géomatique ouverte(IGO)  permet quant à elle de tirer profit d’une multitude de données géographiques ouvertes disponibles sur ce site (patrimoine culturel, territoires agricoles, casernes) grâce à une interface cartographique accessible par un navigateur Web.
+
+Des statistiques de fréquentation du portail sont compilées à l’aide de Google Analytics . La compilation de statistiques de fréquentation est conforme à notre politique de confidentialité."
+Qu’est-ce qu’une métadonnée?,"Une métadonnée est une donnée servant à définir ou à décrire une autre donnée Elle constitue un élément d’information précis sur une donnée, par exemple : qui est l’organisation qui la diffuse, quels sont les mots-clés associés, etc."
+Les jeux de données publiés sur ce site peuvent-ils contenir des renseignements personnels?,Non. Les données permettant d’identifier des individus sont retirées des jeux de données avant leur mise en ligne.
+Qu’est-ce qu’un marathon de programmation (hackathon)?,"Le terme anglais hackathon est un mot-valise construit à partir des termes hack et marathon. En français, le marathon de programmation ou de codage est un concours où des équipes de développeurs sont appelées à créer de nouvelles applications informatiques afin de répondre, par l’exploitation des données ouvertes, à un ou plusieurs enjeux de société. Outre les développeurs, cette compétition réunit souvent des porteurs de projets, des spécialistes de divers domaines et des représentants de la société civile.
+
+Les partenaires de Données Québec présentent HackQCCe lien ouvrira dans une nouvelle fenêtre. , un rendez-vous annuel pour innover. Ce dernier constitue une excellente occasion d’exploiter des données ouvertes au bénéfice de la société."
+Le site Données Québec peut-il être consulté à partir d’un appareil mobile?,Oui! Données Québec a été optimisé pour être consulté sur un appareil mobile.
+Comment voir la qualité des données?,"La métadonnée du respect des lignes directrices indique la conformité d’un jeu de données aux Lignes directrices sur la diffusion de données ouvertes par une cote, pour le jeu de données, et des détails, pour chaque ressource (fichier).
+
+Ainsi, vous verrez, dans la Fiche descriptive du jeu, la section Respect des lignes directrices, qui affiche la cote totale de cette façon :
+
+
+
+Pour chacun des fichiers, le détail concernant les points de conformité apparaissent ainsi dans la Fiche descriptive de la ressource :
+
+
+
+Ce sont les cinq points suivants qui sont exposés :
+
+Format de la ressource (recommandé, ouvert alternatif, propriétaire);
+Licence (sans restriction, légère restriction, plusieurs restrictions);
+Description des champs (fournie en métadonnée ou en ressource, absente);
+Considération fichiers (conforme ou n/a, faible non-conformité, non conforme; les éléments de non-conformité sont affichés);
+Considérations données (conforme ou n/a, faible non-conformité, non conforme; les éléments de non-conformité sont affichés).
+
+Ainsi, avant de télécharger un fichier, il est possible de savoir à quoi s’attendre.
+
+Pour toute question, écrivez à pilote@donneesquebec.ca."
+Comment visualiser les jeux de données disponibles sur Données Québec?,"Plusieurs outils de visualisation sont disponibles sur Données Québec ; ils s’ajustent en fonction du format des jeux de données. Lorsque la taille d’un jeu de données est trop importante, la visualisation peut toutefois être désactivée par le portail pour éviter d’avoir à transférer un trop grand volume d’information vers votre appareil. À ce moment, les données doivent être téléchargées pour être consultées sur votre ordinateur personnel.
+
+Pour les données tabulaires :
+
+Lorsque les données sont tabulaires (CSV, XLS), des outils servant de filtre sont offerts. L’un de ces filtres apparaît à droite des données affichées (classeur, graphique ou carte), l’autre au-dessus. Le filtre au-dessus des données montrées est disponible uniquement lorsque les données sont stockées dans la base de données interne du portail. Vous pouvez sélectionner les données à afficher en fonction de l’information recherchée.
+
+Vous pouvez également écrire un terme dans la barre de recherche en haut du tableau et cliquer sur « Go » pour afficher les données associées à ce terme.
+
+L’onglet « Graphique » permet de créer votre propre graphique. Le menu de droite vous propose une sélection de divers types de graphique (graphique de type histogramme, graphique en courbes, etc.) ainsi que les valeurs souhaitées pour l’axe des « x » et l’axe des « y ». Vous pouvez également filtrer les données à afficher.
+
+Si le jeu de données contient des valeurs de longitude et de latitude, les données peuvent s’afficher sur une carte en cliquant sur l’onglet « Carte ». Sélectionnez ensuite les valeurs appropriées dans les champs « Latitude » et « Longitude », puis cliquez sur « Mettre à jour ».
+
+Format GeoJson :
+
+Lorsqu’un jeu de données est en format GeoJson, les valeurs s’affichent sur une carte.
+
+Données hébergées dans IGO :
+
+Les données hébergées dans la solution Infrastructure géomatique ouverte (IGO) s’affichent quant à elles sur une carte interactive dans laquelle le menu de gauche vous permet de modifier les données visualisées et de superposer plusieurs jeux de données sur une même carte.
+
+Autres formats :
+
+D’autres formats de fichier (par exemple les formats XML et JSON) apparaissent directement sous l’onglet « Exploration des données » sans possibilité de filtre ou de visualisation géolocalisée.
+
+Certains formats de jeux de données, par exemple les fichiers compressés, ne peuvent être visualisés. Il est néanmoins possible de les télécharger en cliquant sur « Télécharger »."
+Comment trouver les jeux de données disponibles sur Données Québec?,"Plusieurs méthodes peuvent être utilisées pour trouver des jeux de données. La manière la plus simple et la plus flexible consiste à afficher la page répertoriant l’ensemble des jeux de données à partir du menu « Données ». Lorsque cette page est affichée, vous pouvez :
+
+utiliser la barre de recherche dans le haut de la page pour chercher des mots particuliers dans le nom et la description des jeux de données;
+filtrer les jeux de données trouvés en fonction de l’organisation diffusant les jeux, des catégories, des mots-clés et des formats de fichier caractérisant les jeux de données.
+
+De plus, la page « Applications » permet de rechercher une application.
+
+Avant d’utiliser un jeu de données mis à votre disposition sur Données Québec, assurez-vous d’avoir lu et compris les dispositions énoncées dans la licence qui lui est rattachée."
+Je n’arrive pas à trouver sur le portail les données liées aux lots de cadastre ou à certains relevés géographiques. Où sont-elles?,"Bien que plusieurs jeux de données géospatiales soient accessibles sur Données Québec, certaines informations, telles que le registre du cadastre d’Info-lot , ne sont pas offertes, pour le moment, en données ouvertes. Nous vous invitons à communiquer avec les organisations concernées pour de plus amples renseignements. Par ailleurs, la Géoboutique  du ministère de l’Énergie et des Ressources naturelles diffuse d’autres données sous un type de licence différent."
+Dans quels formats sont disponibles les jeux de données?,"Les formats recommandés aux Lignes directrices sur la diffusion de données ouvertes sur le site de Données Québec sont les suivants : CSV, JSON et GeoJSON. Par ailleurs, d’autres formats peuvent être fournis en complément.
+
+CSV :
+
+Signifie « Comma-separated Values » et désigne un format ouvert représentant des données tabulaires sous forme de valeurs séparées par des virgules.
+
+JSON :
+
+JSON (JavaScript Object Notation) est un format de données générique, dérivé de la notation des objets du langage ECMAScript. Il permet de représenter de l’information structurée.
+
+GeoJSON :
+
+GeoJSON (Geographic JavaScript Object Notation) est un format ouvert d’encodage d’ensemble de données géographiques. Dans le contexte du portail de données ouvertes, le format JSON utilise le système géodésique WGS84 qui permet de tirer profit des outils de prévisualisation. Ce format est aussi adapté aux applications Web et aux technologies mobiles."
+Qu’en est-il des formats de fichiers de données géographiques ?,"Les fichiers de données géographiques existent dans une multitude de formats. Celui qui est recommandé pour les diffuseurs sur Données Québec est le GeoJSON . Un diffuseur peut aussi offrir les données dans des formats complémentaires. Actuellement, plusieurs jeux de données sont diffusés en format propriétaire . Leur conversion en format ouvert  est en cours de réalisation, et ce, de façon graduelle.Il est possible de passer d’un format à un autre, en fonction de l’usage que l’on veut en faire, avec différents outils tels :une bibliothèque logicielle  (exemple : GDAL )un extracto-chargeur  (exemples : FME, Talend Open Studio , Pentaho )un système d’information géomatique  (exemple : QGIS )"
+"Pourquoi certaines données sont-elles disponibles en format de logiciel tableur (XLSX, ODS)?","Bien que les formats de logiciel tableur ne correspondent pas aux standards généralement reconnus en données ouvertes, ceux-ci sont encore très souvent utilisés dans les diverses administrations publiques. D’ailleurs, la très grande majorité des sites de données ouvertes proposent également des données dans ce type de format. Vous trouverez sur ce site de nombreuses données disponibles en format de logiciel tableur et souvent en complément d’une ressource CSV."
+Quelles sont les conditions d’utilisation des données de ce site?,À chaque jeu de données publié sur Données Québec est rattachée une licence Ce lien ouvrira dans une nouvelle fenêtre. d’utilisation qui en explique les conditions d’utilisation.
+Quelle est la licence privilégiée pour les données ouvertes du site Données Québec?,"La licence privilégiée est la Creative Commons 4.0, reconnue internationalement comme l’une des moins restrictives quant aux droits d’utilisation des données ouvertes tout en protégeant les droits d’auteur.
+
+Pour en savoir davantage, Licence  applicable aux données ouvertes du site Données Québec."
+Dans quel contexte l’utilisation de la licence CC0 est-elle particulièrement appropriée?,"La CC0 permet d’utiliser les données sans restriction ou obligation.
+
+Contrairement à la CC-BY, la Licence CC0 n’oblige pas d’attribuer le crédit. Par conséquent, la CC0 est à privilégier lorsqu’il est souhaité que les données diffusées soient intégrées dans un plus vaste ensemble de données ouvertes et liées. Cela favorise la diffusion et la réutilisation des données ouvertes liées, notamment dans le contexte du Web sémantique.
+
+La licence CC0 convient particulièrement lorsqu’il s’agit de diffuser des données au sujet des œuvres — afin notamment d’améliorer leur découvrabilité — et non les œuvres elles-mêmes. Le domaine culturel est particulièrement concerné par cette licence.
+
+Quelques références:
+
+CHARBONNEAU Olivier, Enjeux en droit d’auteur de la diffusion ouverte de métadonnées culturellesCe lien ouvrira dans une nouvelle fenêtre. 
+CREATIVE COMMONS, Public domainCe lien ouvrira dans une nouvelle fenêtre. 
+CREATIVE COMMONS, CC0 FAQCe lien ouvrira dans une nouvelle fenêtre."
+Qu’est-ce qu’une API et quelle est son utilité?,"L’expression « API » est l’abréviation de « Application Programming Interface » (ou en français: interface applicative de programmation). Les API sont un moyen efficace de faire communiquer deux programmes informatiques. Ainsi, une API permet d’automatiser certaines tâches dynamiques en lot et de programmer des tâches qui doivent être exécutées fréquemment.
+
+Le portail Données Québec est soutenu par l’application Web CKAN, qui permet de cataloguer et de documenter les jeux de données, ainsi que de téléverser leurs fichiers de données d’un serveur distant vers le serveur de Données Québec. CKAN possède des API qui permettent d’interagir par programmation avec les données du portail (version CKAN 2.8.6 en vigueur).
+
+Les API de CKAN permettent de répondre aux besoins des développeurs et des citoyens qui désirent consulter le contenu du portail, notamment le catalogue des jeux de données, les organisations, l’historique et les ressources qui leur sont associées.
+
+Consultez la page dédiée aux API."
+Quelles API sont disponibles?,Consultez la page dédiée aux API.
+Comment ouvrir un fichier CSV à l’aide d’un logiciel tableur?,"Si vous ouvrez le fichier avec MS Excel, nous vous invitons à suivre certaines étapes pour MS Excel .
+
+Si vous ouvrez le fichier avec Libre Office, nous vous invitons à suivre certaines étapes pour Libre Office ."
+Comment puis-je utiliser le fil RSS de ce site?,"Pour utiliser le fil RSS, procurez-vous un logiciel appelé « lecteur RSS » ou « agrégateur de contenu ». Il existe plusieurs types de lecteurs RSS. Certains sont accessibles par l’intermédiaire d’un navigateur Web et leur installation est gratuite. D’autres sont des applications bureautiques autonomes, offertes librement ou non. Une recherche avec le mot-clé « RSS reader » dans un site de recherche vous permettra de trouver des liens utiles. Voici deux liens vers des sites qui offrent de tels logiciels, que l’on peut utiliser gratuitement :Feed Reader (http://feedreader.com/Ce lien ouvrira dans une nouvelle fenêtre. )RSS Bandit (http://rssbandit.org/Ce lien ouvrira dans une nouvelle fenêtre. )Lorsque vous disposez du lecteur RSS, vous pouvez cliquer sur l’icône   apparaissant sur la page de chacune des organisations principales et sur la page d’accueil du portail, à côté de « Jeux de données les plus récents. » Coller l’adresse URL du fil RSS dans votre lecteur RSS et le tour est joué!Il est possible de vous abonner à différents fils RSS:les jeux de données les plus récents sur la page d’accueil;une organisation principale (ex: le gouvernement du Québec, une municipalité, la page de la société civile);une organisation participante (ex: un ministère ou organisme du gouvernement);une catégorie de données (ex: santé, transport);le résultat d’une recherche par mot clé, format de ressource, type de ressource;les jeux de données les plus récemment mis à jour."
+À qui dois-je m’adresser pour une assistance technique relative à ce site?,"Pour obtenir de l’assistance, utilisez le formulaire « Communiquez avec nous »."
+Comment signaler un lien rompu ou un fichier corrompu?,Nous vous invitons à nous faire part de tout problème technique à l’aide du formulaire « Communiquez avec nous ».
+Pourquoi ai-je de la difficulté à télécharger certaines ressources?,"Données Québec est un portail collaboratif qui permet à différents diffuseurs d’offrir leurs données ouvertes avec des métadonnées communes.
+
+Certains diffuseurs téléversent leurs données dans les infrastructures de Données Québec, tandis que d’autres les hébergent eux-mêmes et fournissent un lien de téléchargement. Pour ces derniers, quand vous appuyez sur Télécharger, les données peuvent provenir de n’importe où!
+
+Le téléchargement des données offertes par des diffuseurs via les protocoles FTP et HTTP se voient bloquer par certains navigateurs à partir de notre site sécurisé. Les diffuseurs concernés sont à pied d’œuvre pour moderniser leurs infrastructures.
+
+Notamment le navigateur Chrome, utilisé par 60 % des internautes qui visitent Données Québec, a annoncé un plan visant à sécuriser les téléchargements de différentes sources. En attendant, vous pouvez essayer d’utiliser un autre navigateur.
+
+Pour les ressources disponibles par protocole FTP vous pouvez aussi copiez le lien de téléchargement dans votre explorateur de fichiers.
+
+Aussi, les données offertes à partir d’un protocole FTP ne peuvent pas intégrer le magasin de données afin d’être interrogées par l’API. La ressource devra être téléchargée à partir de l’interface.
+
+Encore des questions? Vous pouvez Nous joindre!"
+Puis-je avoir accès aux applications développées à l’aide des données ouvertes de Données Québec?,Les applications conçues par des développeurs à l’aide des données de ce site peuvent être répertoriées et elles sont disponibles dans la section « Applications ». Il est possible de nous informer des applications utilisant les jeux de données de Données Québec afin qu’elles soient répertoriées en utilisant le formulaire « Nous joindre ».
+Quels sont les critères de publication d’une application sur Données Québec?,"Les applications publiées sur Données Québec répondent aux critères suivant, établis par les partenaires du portail.
+
+Utilisation significative des données ouvertes de Données Québec
+
+Énoncer clairement les données utilisées.
+L’application doit faire une utilisation objective des données. Elle ne doit pas détourner le sens de l’information.
+
+Aspect légal
+
+Utiliser les jeux de données conformément au droit et à leur licence propre, notamment en matière de vie privée et de propriété intellectuelle.
+Les entreprises et les organisations sont enregistrées auprès du Registraire des entreprises et se conforment aux lois.
+
+Utilité pour le citoyen ou l’entreprise
+
+Répondre à un besoin citoyen.
+Offrir une version française.
+
+Objectif de l’application
+
+La présentation de l’application sur Données Québec ne sera pas publicitaire.
+Être en cohérence avec la mission de Données Québec."

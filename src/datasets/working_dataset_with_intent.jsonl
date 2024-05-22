@@ -47,3 +47,12 @@
 {"Intent": "dqdataset", "Question": "quelle est la licence du jeu de donn\u00e9es cuisine de rue", "Reponse": "Attribution (CC-BY 4.0)"}
 {"Intent": "dqdataset", "Question": "quelle est la fr\u00e9quence de mise \u00e0 jour du jeu de donn\u00e9es Points de rencontre d'ambulance?", "Reponse": "Mise \u00e0 jour est annuel<OR>annuellement"}
 {"Intent": "dqdataset", "Question": "qui est le responsable du jeu de donn\u00e9es sur le point de rencontre des ambulances?", "Reponse": "Secteur des op\u00e9rations r\u00e9gionales<OR>SOR"}
+{"Intent": "dqdataset","Question":"je veux des images de survol de drummond","Reponse":"Orthophotos 2020<OR>orthophotos"}
+{"Intent": "dqdataset","Question":"je suis un chercheur. Ma recherche ce concentre sur la ville de montreal et les problèmes de sanités dans les restaurants.","Reponse":"restonet<OR>Inspections des aliments et contrevenants "}
+{"Intent": "dqdataset","Question":"qualité de l'air à travers le temps à Montreal","Reponse":"RSQA - indice de la qualité de l'air (historique)<OR>RSQA"}
+{"Intent": "dqdataset","Question":"l'url de la map des pistes cyclables à rouyn","Reponse":"https://donnees-ouvertes-vrn.opendata.arcgis.com/maps/9be7afe73e96444a8c88e1734b7ebd35"}
+{"Intent": "dqdataset","Question":"le jeu de données pour la solidarité sociale à été créé quand?","Reponse":"2018-12-14<OR>14 décembre 2018"}
+{"Intent": "dqdataset","Question":"propose moi 3 jeux de données pour comprendre la situation financière à la largeur du québec","Reponse":"3.<OR>Statistiques économiques du Québec Centres et comptoirs de services de La Financière agricole du Québec Cadre financier pluriannuel du gouvernement du Québec"}
+{"Intent": "dqdataset","Question":"donne moi un jeu de données pour les crédits d'impot pour les gens qui aide les vieux. J'aimerais avoir la license aussi","Reponse":"Crédit d'impôt pour personne aidante - volet personne aidée âgée de 70 ans ou plus et atteinte d'aucune déficience, 2020 à 2022 Attribution (CC-BY 4.0)"}
+{"Intent": "dqdataset","Question":"les tags pour le jeu de données de crédit d'impots des vieux","Reponse":"2022, Aidant naturel, Allègement fiscal, Fiscalité, Proche aidant, Soutien aux aînés, Soutien personnel et familial"}
+{"Intent": "dqdataset","Question":"j'ai besoin du responsable du jeu de données des permis de conduire","Reponse":"Direction de la recherche et du développement en sécurité routière"}

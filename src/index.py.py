@@ -16,29 +16,33 @@ from robco_runner import RobcoRunner
 from utils import csv_to_jsonl, jsonl_to_csv
 import dotenv
 from dotenv import load_dotenv
+import re
+
+
+import re
 
 
 def classification_converter(input: str, labels: list[str]) -> str:
-    # if one of the labels is in the input, return it
-    for label in labels:
-        if label in input:
-            return label
-    return ""
+    # capture all occurrences of the intent that should be between < and >
+    matches = re.findall("<(.*?)>", input)
+    detected_intent = matches[-1] if matches else "default"
+    return detected_intent if detected_intent in labels else "default"
 
 
 def run_test(config: DataConfig = None) -> None:
     ws_address = os.environ.get("WS_ADDRESS")
     model_runner = RobcoRunner(ws_address=ws_address)
+
+    valid_labels = ["default", "dqdataset", "dqgeneral"]
+
     algos: list[EvalAlgorithmInterface] = [
-        # Toxicity(ToxicityConfig()),
         QAAccuracy(QAAccuracyConfig()),
-        # ClassificationAccuracy(
-        #     ClassificationAccuracyConfig(
-        #         valid_labels=["default", "dqdataset", "dqgeneral"],
-        #         converter=classification_converter,
-        #     )
-        # ),
-        # QAToxicity(ToxicityConfig()),
+        ClassificationAccuracy(
+            ClassificationAccuracyConfig(
+                valid_labels=valid_labels,
+                converter_fn=classification_converter,
+            )
+        ),
     ]
 
     for algo in algos:
@@ -63,14 +67,16 @@ def main():
     #     )
     load_dotenv()
     os.environ["EVAL_RESULTS_PATH"] = "./src/results"
-    os.environ["PARALLELIZATION_FACTOR"] = "1"
+    os.environ["PARALLELIZATION_FACTOR"] = "2"
+    os.environ["WS_THROTTLE"] = "0.5"
+
     config = DataConfig(
         dataset_name="custom_dataset",
         dataset_uri="src/datasets/working_dataset_with_intent.jsonl",
         dataset_mime_type="application/jsonlines",
         model_input_location="Question",
-        model_output_location="generated_answer",
         target_output_location="Reponse",
+        category_location="Intent",
     )
 
     run_test(config=config)

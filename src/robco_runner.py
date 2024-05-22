@@ -46,8 +46,10 @@ class RobcoRunner(ModelRunner):
             response_json = self.ws.recv()
             response_dict = json.loads(response_json)
             result = response_dict.get("message")
-            logger.info(f"Received response: {result}")
-            return result, None
+            intent = response_dict.get("intent")
+            final = f"{result} <{intent}>"
+            logger.info({final})
+            return final, None
         except websocket.WebSocketTimeoutException:
             logger.warning("WebSocket timeout, retrying...")
             time.sleep(5)  # Wait before retrying
