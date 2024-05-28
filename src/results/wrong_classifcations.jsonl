@@ -1,0 +1,254 @@
+[
+    {
+        "model_input": "Comment puis-je contacter l'\u00e9quipe de Donn\u00e9es Qu\u00e9bec pour poser une question ?",
+        "prompt": "Comment puis-je contacter l'\u00e9quipe de Donn\u00e9es Qu\u00e9bec pour poser une question ?",
+        "model_output": "Vous pouvez trouver l'information n\u00e9cessaire pour nous contacter: https://www.donneesquebec.ca/contact/ <intention>contact</intention>",
+        "target_output": "dqgeneral",
+        "scores": 0
+    },
+    {
+        "model_input": "Monsieur Serge Gagn\u00e9, 321 chemin du Lac, La Tuque, G0X 2Y0, avez-vous des donn\u00e9es sur la qualit\u00e9 de l'eau des lacs autour de ma r\u00e9sidence ?",
+        "prompt": "Monsieur Serge Gagn\u00e9, 321 chemin du Lac, La Tuque, G0X 2Y0, avez-vous des donn\u00e9es sur la qualit\u00e9 de l'eau des lacs autour de ma r\u00e9sidence ?",
+        "model_output": "Malheureusement, je n'ai pas trouv\u00e9 de jeux de donn\u00e9es sp\u00e9cifiques sur la qualit\u00e9 de l'eau des lacs autour de votre r\u00e9sidence \u00e0 La Tuque. Cependant, le portail Donn\u00e9es Qu\u00e9bec propose de nombreuses donn\u00e9es sur l'environnement et la qualit\u00e9 de l'eau \u00e0 l'\u00e9chelle de la province. Je vous sugg\u00e8re de consulter les jeux de donn\u00e9es suivants qui pourraient vous int\u00e9resser :\n\n- \"Qualit\u00e9 de l'eau des rivi\u00e8res et des lacs au Qu\u00e9bec\" - Ce jeu de donn\u00e9es fournit des informations sur la qualit\u00e9 de l'eau dans diff\u00e9rentes r\u00e9gions du Qu\u00e9bec.\n- \"Stations de suivi de la qualit\u00e9 de l'eau\" - Ce jeu de donn\u00e9es recense les stations de mesure de la qualit\u00e9 de l'eau \u00e0 travers le Qu\u00e9bec.\n\nN'h\u00e9sitez pas \u00e0 explorer davantage le portail Donn\u00e9es Qu\u00e9bec, vous y trouverez s\u00fbrement d'autres ressources pertinentes pour votre recherche. Je reste \u00e0 votre disposition si vous avez d'autres questions. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Bonjour, je suis Pierre Lavoie, n\u00e9 le 15 mars 1985. Y a-t-il des donn\u00e9es sur les gens n\u00e9s la m\u00eame ann\u00e9e que moi ?",
+        "prompt": "Bonjour, je suis Pierre Lavoie, n\u00e9 le 15 mars 1985. Y a-t-il des donn\u00e9es sur les gens n\u00e9s la m\u00eame ann\u00e9e que moi ?",
+        "model_output": "Bonjour Pierre Lavoie. Malheureusement, je n'ai pas trouv\u00e9 de jeux de donn\u00e9es sp\u00e9cifiques sur les personnes n\u00e9es la m\u00eame ann\u00e9e que vous, soit en 1985. Cependant, le portail Donn\u00e9es Qu\u00e9bec contient de nombreuses informations d\u00e9mographiques et statistiques qui pourraient vous int\u00e9resser. Je vous sugg\u00e8re d'explorer les cat\u00e9gories \"D\u00e9mographie\" et \"Statistiques\" pour voir si vous y trouvez des donn\u00e9es pertinentes. N'h\u00e9sitez pas \u00e0 me recontacter si vous avez d'autres questions, je serai ravi de vous aider \u00e0 naviguer dans les ressources offertes sur le portail. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Hello! Vous \u00eates au bon endroit pour trouver des donn\u00e9es pertinentes.",
+        "prompt": "Hello! Vous \u00eates au bon endroit pour trouver des donn\u00e9es pertinentes.",
+        "model_output": "Bonjour! En tant qu'assistant de Donn\u00e9es Qu\u00e9bec, je suis ravi de vous aider \u00e0 trouver des jeux de donn\u00e9es pertinents pour votre recherche. \n\nLe portail Donn\u00e9es Qu\u00e9bec offre un vaste \u00e9ventail de 1412 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, couvrant de nombreux sujets. Parmi ces jeux de donn\u00e9es, on trouve 39 applications, 21 minist\u00e8res, 21 villes, 35 organismes publics et 21 organismes de la soci\u00e9t\u00e9 civile.\n\nL'acc\u00e8s \u00e0 ces donn\u00e9es est gratuit et ne n\u00e9cessite aucune information personnelle. Vous pouvez donc explorer librement ces ressources pour trouver celles qui r\u00e9pondent le mieux \u00e0 vos besoins.\n\nSi vous avez une question sp\u00e9cifique, je serai heureux d'essayer de vous orienter vers le jeu de donn\u00e9es le plus pertinent. N'h\u00e9sitez pas \u00e0 me le faire savoir. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Bien le bonjour! Pr\u00eat \u00e0 faire parler les donn\u00e9es?",
+        "prompt": "Bien le bonjour! Pr\u00eat \u00e0 faire parler les donn\u00e9es?",
+        "model_output": "Bonjour! Je serai ravi de vous aider \u00e0 explorer les donn\u00e9es disponibles sur le portail Donn\u00e9es Qu\u00e9bec. Ce portail regroupe plus de 1 400 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, couvrant une grande vari\u00e9t\u00e9 de sujets. \n\nQue recherchez-vous exactement? Je peux vous sugg\u00e9rer des jeux de donn\u00e9es pertinents \u00e0 votre demande si vous me donnez plus de d\u00e9tails. N'h\u00e9sitez pas \u00e0 me poser vos questions, je ferai de mon mieux pour y r\u00e9pondre ou vous orienter vers les bonnes ressources. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Mon nom est Jean Tremblay, pouvez-vous m'aider \u00e0 trouver des donn\u00e9es sur ma ville natale ?",
+        "prompt": "Mon nom est Jean Tremblay, pouvez-vous m'aider \u00e0 trouver des donn\u00e9es sur ma ville natale ?",
+        "model_output": "Bonjour Jean Tremblay, je peux certainement vous aider \u00e0 trouver des donn\u00e9es sur votre ville natale. Le portail Donn\u00e9es Qu\u00e9bec contient de nombreux jeux de donn\u00e9es sur les diff\u00e9rentes villes et municipalit\u00e9s du Qu\u00e9bec. \n\nJe vous sugg\u00e8re de consulter le jeu de donn\u00e9es intitul\u00e9 \"Profils des municipalit\u00e9s du Qu\u00e9bec\". Ce jeu de donn\u00e9es fournit des informations d\u00e9taill\u00e9es sur les caract\u00e9ristiques d\u00e9mographiques, \u00e9conomiques et g\u00e9ographiques de chaque municipalit\u00e9 qu\u00e9b\u00e9coise. Vous y trouverez s\u00fbrement des informations pertinentes sur votre ville natale.\n\nN'h\u00e9sitez pas \u00e0 me poser d'autres questions si vous avez besoin d'aide pour naviguer sur le portail Donn\u00e9es Qu\u00e9bec. Je serai ravi de vous guider davantage. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "H\u00e9! Vous tombez \u00e0 pic, on a plein de nouveaux jeux de donn\u00e9es.",
+        "prompt": "H\u00e9! Vous tombez \u00e0 pic, on a plein de nouveaux jeux de donn\u00e9es.",
+        "model_output": "Excellent, je serai ravi de vous sugg\u00e9rer quelques jeux de donn\u00e9es int\u00e9ressants sur le portail Donn\u00e9es Qu\u00e9bec. \n\nLe jeu de donn\u00e9es \"COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations\" pourrait vous int\u00e9resser. Il pr\u00e9sente des informations d\u00e9taill\u00e9es sur la situation de la COVID-19 au Qu\u00e9bec, notamment le statut vaccinal des nouveaux cas et des nouvelles hospitalisations.\n\nUn autre jeu de donn\u00e9es pertinent est \"\u00c9tablissements actifs\", qui recense les \u00e9tablissements ouverts au moins une journ\u00e9e dans l'ann\u00e9e, avec des informations sur leur secteur d'activit\u00e9, leur r\u00e9gion et leur \u00e9tat (ouvert ou ferm\u00e9).\n\nN'h\u00e9sitez pas \u00e0 explorer davantage le portail Donn\u00e9es Qu\u00e9bec, de nouvelles donn\u00e9es sont r\u00e9guli\u00e8rement ajout\u00e9es pour r\u00e9pondre aux besoins des citoyens et des organisations. Vous pouvez vous abonner au fil RSS pour \u00eatre inform\u00e9 des nouveaut\u00e9s. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Je suis journaliste, Maxime L\u00e9vesque num\u00e9ro de presse C1234, peut-on voir s'il y a des donn\u00e9es sur les articles que j'ai publi\u00e9s ?",
+        "prompt": "Je suis journaliste, Maxime L\u00e9vesque num\u00e9ro de presse C1234, peut-on voir s'il y a des donn\u00e9es sur les articles que j'ai publi\u00e9s ?",
+        "model_output": "Malheureusement, le portail Donn\u00e9es Qu\u00e9bec ne contient pas de jeux de donn\u00e9es sp\u00e9cifiques aux articles publi\u00e9s par les journalistes. Les donn\u00e9es disponibles sur ce portail sont principalement des informations de nature publique, fournies par les diff\u00e9rents minist\u00e8res, organismes et municipalit\u00e9s du Qu\u00e9bec. \n\nCependant, je peux vous sugg\u00e9rer de consulter le r\u00e9pertoire des m\u00e9dias qu\u00e9b\u00e9cois, qui pourrait peut-\u00eatre vous aider \u00e0 trouver des informations sur vos propres publications. Vous pouvez \u00e9galement contacter directement les organisations pour lesquelles vous avez travaill\u00e9, elles seront s\u00fbrement en mesure de vous fournir les d\u00e9tails dont vous avez besoin.\n\nJe regrette de ne pas pouvoir vous fournir les donn\u00e9es que vous recherchez directement sur le portail Donn\u00e9es Qu\u00e9bec. N'h\u00e9sitez pas \u00e0 me recontacter si vous avez d'autres questions, je ferai de mon mieux pour vous aider. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Les dons ont-ils augment\u00e9 depuis qu'ils permettent une r\u00e9duction fiscale?",
+        "prompt": "Les dons ont-ils augment\u00e9 depuis qu'ils permettent une r\u00e9duction fiscale?",
+        "model_output": "Vous pouvez trouver l'information n\u00e9cessaire pour nous contacter: https://www.donneesquebec.ca/contact/ <intention>contact</intention>",
+        "target_output": "irrelevant",
+        "scores": 0
+    },
+    {
+        "model_input": "Hello! Bienvenue dans notre communaut\u00e9 collaborative autour des donn\u00e9es.",
+        "prompt": "Hello! Bienvenue dans notre communaut\u00e9 collaborative autour des donn\u00e9es.",
+        "model_output": "Bonjour! Bienvenue dans notre communaut\u00e9 collaborative autour des donn\u00e9es.\n\nLe portail Donn\u00e9es Qu\u00e9bec est une initiative conjointe entre le gouvernement du Qu\u00e9bec et plusieurs municipalit\u00e9s. Il vise \u00e0 offrir un meilleur acc\u00e8s aux donn\u00e9es ouvertes d'int\u00e9r\u00eat public, permettre aux citoyens d'interagir avec les organisations qui diffusent ces donn\u00e9es, simplifier leur utilisation et leur croisement, mettre en valeur leur potentiel et accro\u00eetre la transparence des administrations publiques.\n\nLe portail Donn\u00e9es Qu\u00e9bec donne acc\u00e8s \u00e0 1412 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes et des organismes publics. L'acc\u00e8s \u00e0 ces donn\u00e9es est gratuit et ne n\u00e9cessite aucune information personnelle.\n\nSi vous avez une question plus sp\u00e9cifique sur un sujet en particulier, je serai ravi de vous sugg\u00e9rer des jeux de donn\u00e9es pertinents \u00e0 votre recherche. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Bonjour, \u00c9ric B\u00e9langer, 987 rue des Ch\u00eanes \u00e0 Gatineau, j'aimerais conna\u00eetre les donn\u00e9es de consommation d'eau pour mon adresse.",
+        "prompt": "Bonjour, \u00c9ric B\u00e9langer, 987 rue des Ch\u00eanes \u00e0 Gatineau, j'aimerais conna\u00eetre les donn\u00e9es de consommation d'eau pour mon adresse.",
+        "model_output": "Bonjour \u00c9ric B\u00e9langer,\n\nLe portail Donn\u00e9es Qu\u00e9bec ne contient pas de jeux de donn\u00e9es sp\u00e9cifiques sur la consommation d'eau par adresse. Cependant, il existe plusieurs jeux de donn\u00e9es li\u00e9s \u00e0 l'eau et \u00e0 l'environnement que vous pourriez trouver int\u00e9ressants, comme \"Qualit\u00e9 de l'eau potable au Qu\u00e9bec\" ou \"Consommation d'eau municipale au Qu\u00e9bec\". \n\nPour obtenir des informations plus pr\u00e9cises sur votre consommation d'eau, je vous sugg\u00e8re de contacter votre fournisseur d'eau local, qui pourra vous fournir les donn\u00e9es pertinentes pour votre adresse. Le portail Donn\u00e9es Qu\u00e9bec est une excellente ressource pour trouver des donn\u00e9es publiques, mais il ne contient pas n\u00e9cessairement toutes les informations sp\u00e9cifiques \u00e0 chaque citoyen.\n\nN'h\u00e9sitez pas \u00e0 me recontacter si vous avez d'autres questions sur les donn\u00e9es disponibles sur le portail. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Bien le bonjour cher internaute! Comment puis-je vous aider?",
+        "prompt": "Bien le bonjour cher internaute! Comment puis-je vous aider?",
+        "model_output": "Bonjour! Je suis ravi de pouvoir vous aider aujourd'hui. En tant qu'assistant de Donn\u00e9es Qu\u00e9bec, je suis en mesure de vous fournir des informations sur les jeux de donn\u00e9es disponibles sur le portail.\n\nLe portail Donn\u00e9es Qu\u00e9bec propose plus de 1400 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes et des organismes publics. Ces donn\u00e9es couvrent de nombreux sujets et sont accessibles gratuitement sans avoir besoin de fournir d'informations personnelles.\n\nSi vous avez une question sp\u00e9cifique sur un sujet en particulier, je pourrai vous sugg\u00e9rer le jeu de donn\u00e9es le plus pertinent. Par exemple, si vous cherchez des informations sur les services de sant\u00e9 au Qu\u00e9bec, je pourrais vous recommander le jeu de donn\u00e9es \"\u00c9tablissements de sant\u00e9 et de services sociaux au Qu\u00e9bec\".\n\nN'h\u00e9sitez pas \u00e0 me poser votre question, je ferai de mon mieux pour vous guider vers les ressources les plus adapt\u00e9es. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Salut salut! Bienvenue dans l'univers des donn\u00e9es ouvertes.",
+        "prompt": "Salut salut! Bienvenue dans l'univers des donn\u00e9es ouvertes.",
+        "model_output": "Bonjour! Je suis ravi de vous accueillir dans l'univers des donn\u00e9es ouvertes du Qu\u00e9bec. En tant qu'assistant de Donn\u00e9es Qu\u00e9bec, je suis l\u00e0 pour vous guider et vous aider \u00e0 tirer le meilleur parti de ce portail.\n\nDonn\u00e9es Qu\u00e9bec est une plateforme collaborative qui regroupe plus de 1 400 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes et des organismes publics. Ces donn\u00e9es couvrent une grande vari\u00e9t\u00e9 de sujets et sont mises \u00e0 disposition gratuitement, sans aucune information personnelle requise.\n\nPuisque vous n'avez pas de demande sp\u00e9cifique, je vous sugg\u00e8re d'explorer le jeu de donn\u00e9es \"DOimmo\". Il s'agit d'un agr\u00e9gateur de donn\u00e9es ouvertes immobili\u00e8res qui vous permet de consulter en un seul endroit toutes les informations ouvertes sur une propri\u00e9t\u00e9 donn\u00e9e au Qu\u00e9bec. Ce jeu de donn\u00e9es pourrait vous \u00eatre utile si vous vous int\u00e9ressez au march\u00e9 immobilier.\n\nN'h\u00e9sitez pas \u00e0 me poser d'autres questions si vous avez besoin d'aide pour trouver des donn\u00e9es sp\u00e9cifiques. Je serai ravi de vous assister davantage. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Comment puis-je signaler un jeu de donn\u00e9es qui contient des informations sensibles ou confidentielles ?",
+        "prompt": "Comment puis-je signaler un jeu de donn\u00e9es qui contient des informations sensibles ou confidentielles ?",
+        "model_output": "Veuillez prendre note que nous sommes en mesure de r\u00e9pondre seulement aux besoins d'acc\u00e8s aux donn\u00e9es ouvertes.\nMerci de ne jamais communiquer de renseignements personnels. Que souhaitez vous faire ? <intention>pii</intention>",
+        "target_output": "dqgeneral",
+        "scores": 0
+    },
+    {
+        "model_input": "Je m'appelle Sophie Gagnon et j'habite au 123 rue des \u00c9rables \u00e0 Qu\u00e9bec, avez-vous des donn\u00e9es d\u00e9mographiques pour mon quartier ? ",
+        "prompt": "Je m'appelle Sophie Gagnon et j'habite au 123 rue des \u00c9rables \u00e0 Qu\u00e9bec, avez-vous des donn\u00e9es d\u00e9mographiques pour mon quartier ? ",
+        "model_output": "Bonjour Sophie Gagnon, je suis ravi de pouvoir vous aider avec votre demande. Malheureusement, je n'ai pas trouv\u00e9 de jeux de donn\u00e9es sp\u00e9cifiques \u00e0 votre quartier dans le portail Donn\u00e9es Qu\u00e9bec. Cependant, le portail contient de nombreuses donn\u00e9es d\u00e9mographiques \u00e0 l'\u00e9chelle de la ville de Qu\u00e9bec et de la province. Je vous sugg\u00e8re de consulter le jeu de donn\u00e9es \"Profil sociod\u00e9mographique de la ville de Qu\u00e9bec\" qui pourrait vous fournir des informations int\u00e9ressantes sur votre secteur. N'h\u00e9sitez pas \u00e0 me recontacter si vous avez d'autres questions, je serai ravi de vous aider davantage. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Je r\u00e9side au 159 avenue des Pins, app. 10 \u00e0 Sherbrooke, code postal J1E 3T4. Que pouvez-vous me dire sur les permis de r\u00e9novation dans mon immeuble ?",
+        "prompt": "Je r\u00e9side au 159 avenue des Pins, app. 10 \u00e0 Sherbrooke, code postal J1E 3T4. Que pouvez-vous me dire sur les permis de r\u00e9novation dans mon immeuble ?",
+        "model_output": "Le portail Donn\u00e9es Qu\u00e9bec ne contient pas d'informations sp\u00e9cifiques sur les permis de r\u00e9novation pour votre immeuble situ\u00e9 au 159 avenue des Pins, app. 10 \u00e0 Sherbrooke, J1E 3T4. Cependant, voici quelques ressources qui pourraient vous \u00eatre utiles :\n\n- Le site web de la Ville de Sherbrooke fournit des informations sur les permis de construction et de r\u00e9novation. Vous pouvez les contacter au 819-821-5384 ou consulter leur site web \u00e0 l'adresse www.sherbrooke.ca.\n\n- La R\u00e9gie du b\u00e2timent du Qu\u00e9bec est responsable de la r\u00e9glementation sur les permis de construction et de r\u00e9novation. Vous pouvez les joindre au 1-800-361-0761 ou visiter leur site web \u00e0 l'adresse www.rbq.gouv.qc.ca.\n\nN'h\u00e9sitez pas \u00e0 communiquer avec ces organismes pour obtenir de l'information plus d\u00e9taill\u00e9e sur les d\u00e9marches \u00e0 suivre pour votre projet de r\u00e9novation. <intention>redirection</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Salut! Bienvenue dans notre univers d\u00e9di\u00e9 aux donn\u00e9es ouvertes.",
+        "prompt": "Salut! Bienvenue dans notre univers d\u00e9di\u00e9 aux donn\u00e9es ouvertes.",
+        "model_output": "Bonjour! Je suis ravi de vous accueillir sur le portail Donn\u00e9es Qu\u00e9bec, une plateforme collaborative de partage de donn\u00e9es publiques entre les villes et le gouvernement du Qu\u00e9bec.\n\nLe portail Donn\u00e9es Qu\u00e9bec contient actuellement 1412 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant 39 applications, 21 minist\u00e8res, 21 villes, 35 organismes publics et 21 organismes de la soci\u00e9t\u00e9 civile. L'acc\u00e8s \u00e0 ces donn\u00e9es est gratuit et ne n\u00e9cessite aucune information personnelle.\n\nCes jeux de donn\u00e9es couvrent de nombreux sujets d'int\u00e9r\u00eat pour le public, comme le renforcement des externalit\u00e9s \u00e9conomiques positives et le d\u00e9veloppement social. De plus, de nouvelles donn\u00e9es et applications sont r\u00e9guli\u00e8rement ajout\u00e9es sur le portail.\n\nSi vous avez une question sp\u00e9cifique, je serai ravi de vous orienter vers les ressources les plus pertinentes. N'h\u00e9sitez pas \u00e0 me solliciter! <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Coucou! Alors, quelles donn\u00e9es vous int\u00e9ressent aujourd'hui?",
+        "prompt": "Coucou! Alors, quelles donn\u00e9es vous int\u00e9ressent aujourd'hui?",
+        "model_output": "Bonjour! Le portail Donn\u00e9es Qu\u00e9bec propose une grande vari\u00e9t\u00e9 de jeux de donn\u00e9es publiques qui peuvent int\u00e9resser les citoyens. Par exemple, il y a des donn\u00e9es sur les transports, l'environnement, la sant\u00e9, l'\u00e9ducation et bien d'autres sujets. \n\nSi vous avez un sujet en particulier qui vous int\u00e9resse, je peux vous sugg\u00e9rer un jeu de donn\u00e9es pertinent. Par exemple, le jeu de donn\u00e9es \"Accidents de la route au Qu\u00e9bec\" pourrait vous int\u00e9resser si vous voulez en savoir plus sur la s\u00e9curit\u00e9 routi\u00e8re. N'h\u00e9sitez pas \u00e0 me poser d'autres questions, je serai ravi de vous aider \u00e0 trouver les donn\u00e9es qui vous seront utiles. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Je suis l'avocat Alain Tremblay, num\u00e9ro de membre du Barreau 12345-67, pouvez-vous v\u00e9rifier s'il y a des donn\u00e9es sur les causes que j'ai plaid\u00e9es ?",
+        "prompt": "Je suis l'avocat Alain Tremblay, num\u00e9ro de membre du Barreau 12345-67, pouvez-vous v\u00e9rifier s'il y a des donn\u00e9es sur les causes que j'ai plaid\u00e9es ?",
+        "model_output": "D\u00e9sol\u00e9, mais je n'ai pas trouv\u00e9 de jeux de donn\u00e9es sp\u00e9cifiques sur les causes plaid\u00e9es par l'avocat Alain Tremblay dans le portail Donn\u00e9es Qu\u00e9bec. Ce portail contient principalement des donn\u00e9es publiques ouvertes provenant de diff\u00e9rentes organisations gouvernementales et municipales du Qu\u00e9bec. Cependant, il est possible que ces informations ne soient pas disponibles dans les jeux de donn\u00e9es actuellement publi\u00e9s. Je vous sugg\u00e8re de contacter directement le Barreau du Qu\u00e9bec pour obtenir des renseignements plus pr\u00e9cis sur les causes plaid\u00e9es par Me Tremblay. Je reste \u00e0 votre disposition si vous avez d'autres questions concernant les donn\u00e9es disponibles sur le portail Donn\u00e9es Qu\u00e9bec. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "St\u00e9phane Lapointe r\u00e9sident du 456 rue des Tilleuls, Trois-Rivi\u00e8res, G7V 2N1, pouvez-vous v\u00e9rifier s'il y a des donn\u00e9es sur les travaux de voirie planifi\u00e9s devant chez moi ?",
+        "prompt": "St\u00e9phane Lapointe r\u00e9sident du 456 rue des Tilleuls, Trois-Rivi\u00e8res, G7V 2N1, pouvez-vous v\u00e9rifier s'il y a des donn\u00e9es sur les travaux de voirie planifi\u00e9s devant chez moi ?",
+        "model_output": "Malheureusement, je n'ai pas trouv\u00e9 de jeu de donn\u00e9es sp\u00e9cifique sur les travaux de voirie planifi\u00e9s devant votre adresse. Cependant, le portail Donn\u00e9es Qu\u00e9bec contient de nombreuses informations sur les infrastructures et les travaux publics dans la province. Je vous sugg\u00e8re de consulter les jeux de donn\u00e9es li\u00e9s aux travaux routiers, aux chantiers municipaux ou \u00e0 l'entretien des rues dans votre r\u00e9gion. Vous pourrez peut-\u00eatre y trouver des informations pertinentes pour votre situation. N'h\u00e9sitez pas \u00e0 reformuler votre recherche si vous ne trouvez pas ce que vous cherchez. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Tu connais un bon restaurant de sushis dans le coin ? J'ai envie de d\u00e9couvrir de nouvelles saveurs.",
+        "prompt": "Tu connais un bon restaurant de sushis dans le coin ? J'ai envie de d\u00e9couvrir de nouvelles saveurs.",
+        "model_output": "Je comprends votre int\u00e9r\u00eat pour les restaurants de sushis dans votre r\u00e9gion. Bien que le portail Donn\u00e9es Qu\u00e9bec ne contienne pas d'informations sp\u00e9cifiques sur les restaurants, je peux vous sugg\u00e9rer de consulter les ressources suivantes qui pourraient vous aider \u00e0 trouver un bon restaurant de sushis pr\u00e8s de chez vous :\n\n<documents>\n- Le site web de Tourisme Qu\u00e9bec propose un r\u00e9pertoire de restaurants par r\u00e9gion, vous pourriez y trouver des suggestions de restaurants de sushis.\n- Des sites web comme Yelp ou Google Maps permettent \u00e9galement de rechercher et de lire des avis sur les restaurants de votre quartier.\n- Vous pouvez aussi demander des recommandations \u00e0 vos amis ou \u00e0 votre entourage, ils connaissent peut-\u00eatre de bons endroits pour d\u00e9guster des sushis.\n</documents>\n\nJ'esp\u00e8re que ces ressources vous seront utiles pour trouver un restaurant de sushis qui vous plaira. N'h\u00e9sitez pas \u00e0 me recontacter si vous avez d'autres questions. <intention>redirection</intention>",
+        "target_output": "irrelevant",
+        "scores": 0
+    },
+    {
+        "model_input": "Patrick C\u00f4t\u00e9, ing\u00e9nieur num\u00e9ro OIQ 12345, peut-on voir s'il y a des donn\u00e9es sur les projets que j'ai r\u00e9alis\u00e9s ? ",
+        "prompt": "Patrick C\u00f4t\u00e9, ing\u00e9nieur num\u00e9ro OIQ 12345, peut-on voir s'il y a des donn\u00e9es sur les projets que j'ai r\u00e9alis\u00e9s ? ",
+        "model_output": "Malheureusement, je n'ai pas trouv\u00e9 de jeux de donn\u00e9es sp\u00e9cifiques aux projets r\u00e9alis\u00e9s par l'ing\u00e9nieur Patrick C\u00f4t\u00e9 sur le portail Donn\u00e9es Qu\u00e9bec. Ce portail contient une grande vari\u00e9t\u00e9 de donn\u00e9es publiques, mais il ne semble pas y avoir d'informations d\u00e9taill\u00e9es sur les projets individuels d'ing\u00e9nieurs. Cependant, vous pouvez explorer d'autres sections du portail qui pourraient contenir des informations pertinentes \u00e0 votre recherche. N'h\u00e9sitez pas \u00e0 reformuler votre demande pour voir si d'autres jeux de donn\u00e9es pourraient vous \u00eatre utiles. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Salutations! Pr\u00eat pour une plong\u00e9e dans l'univers des donn\u00e9es ouvertes?",
+        "prompt": "Salutations! Pr\u00eat pour une plong\u00e9e dans l'univers des donn\u00e9es ouvertes?",
+        "model_output": "Bonjour! Je suis ravi de vous aider \u00e0 explorer l'univers passionnant des donn\u00e9es ouvertes du Qu\u00e9bec. \n\nDonn\u00e9es Qu\u00e9bec est un portail qui offre un acc\u00e8s gratuit \u00e0 plus de 1 400 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes et des organismes publics. Ces donn\u00e9es couvrent une grande vari\u00e9t\u00e9 de sujets, allant des statistiques d\u00e9mographiques aux informations sur les infrastructures publiques.\n\nL'un des jeux de donn\u00e9es les plus pertinents pour le grand public serait probablement \"Donn\u00e9es d\u00e9mographiques du Qu\u00e9bec\". Ce jeu de donn\u00e9es fournit des informations d\u00e9taill\u00e9es sur la population qu\u00e9b\u00e9coise, telles que la r\u00e9partition par \u00e2ge, le taux de natalit\u00e9, les tendances migratoires, etc. Ces donn\u00e9es peuvent \u00eatre tr\u00e8s utiles pour mieux comprendre les enjeux sociaux et \u00e9conomiques de la province.\n\nN'h\u00e9sitez pas \u00e0 explorer davantage le portail Donn\u00e9es Qu\u00e9bec pour trouver d'autres jeux de donn\u00e9es qui pourraient vous int\u00e9resser. N'oubliez pas que l'acc\u00e8s est gratuit et ne n\u00e9cessite aucune information personnelle. Je suis l\u00e0 pour vous guider si vous avez d'autres questions! <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Salut! Alors, quelles d\u00e9couvertes allez-vous faire aujourd'hui gr\u00e2ce aux donn\u00e9es?",
+        "prompt": "Salut! Alors, quelles d\u00e9couvertes allez-vous faire aujourd'hui gr\u00e2ce aux donn\u00e9es?",
+        "model_output": "Bonjour! Le portail Donn\u00e9es Qu\u00e9bec regorge de nombreuses d\u00e9couvertes passionnantes \u00e0 faire. Avec ses 1412 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, vous aurez l'embarras du choix pour explorer des sujets vari\u00e9s tels que l'environnement, la sant\u00e9, l'\u00e9ducation, les transports et bien plus encore. \n\nPar exemple, le jeu de donn\u00e9es \"Qualit\u00e9 de l'air au Qu\u00e9bec\" vous permettra d'analyser les niveaux de pollution dans diff\u00e9rentes r\u00e9gions de la province. Ou encore, le jeu de donn\u00e9es \"\u00c9coles primaires et secondaires du Qu\u00e9bec\" vous donnera un aper\u00e7u d\u00e9taill\u00e9 du syst\u00e8me \u00e9ducatif qu\u00e9b\u00e9cois. \n\nN'h\u00e9sitez pas \u00e0 naviguer \u00e0 travers les diff\u00e9rentes cat\u00e9gories propos\u00e9es sur le portail pour trouver les informations qui vous int\u00e9ressent le plus. L'acc\u00e8s \u00e0 ces donn\u00e9es est gratuit et ne n\u00e9cessite aucune information personnelle. Je serai ravi de vous aider \u00e0 explorer davantage les possibilit\u00e9s offertes par Donn\u00e9es Qu\u00e9bec. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "H\u00e9! Bienvenue dans l'aventure des donn\u00e9es ouvertes!",
+        "prompt": "H\u00e9! Bienvenue dans l'aventure des donn\u00e9es ouvertes!",
+        "model_output": "Bonjour! Je suis ravi de vous accueillir sur le portail Donn\u00e9es Qu\u00e9bec, une plateforme de partage de donn\u00e9es publiques issue d'une collaboration entre les villes et le gouvernement du Qu\u00e9bec.\n\nLe portail Donn\u00e9es Qu\u00e9bec contient actuellement 1412 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes, des organismes publics et des organismes de la soci\u00e9t\u00e9 civile. Ces donn\u00e9es couvrent de nombreux sujets et sont accessibles gratuitement, sans n\u00e9cessiter d'informations personnelles.\n\nSi vous cherchez des suggestions de jeux de donn\u00e9es int\u00e9ressants, je vous recommande le jeu de donn\u00e9es \"\u00c9volution de la population du Qu\u00e9bec par r\u00e9gion administrative\" qui fournit des informations d\u00e9taill\u00e9es sur la d\u00e9mographie qu\u00e9b\u00e9coise. N'h\u00e9sitez pas \u00e0 me poser d'autres questions, je serai ravi de vous guider davantage dans l'exploration de ce riche portail de donn\u00e9es ouvertes. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "H\u00e9! Vous ne pouviez pas mieux tomber, on a des jeux de donn\u00e9es fascinants.",
+        "prompt": "H\u00e9! Vous ne pouviez pas mieux tomber, on a des jeux de donn\u00e9es fascinants.",
+        "model_output": "Voici une suggestion de jeu de donn\u00e9es qui pourrait vous int\u00e9resser sur le portail Donn\u00e9es Qu\u00e9bec :\n\nLe jeu de donn\u00e9es \"Banque de pr\u00e9noms\" contient une liste des pr\u00e9noms masculins pour les enfants n\u00e9s ou ayant immigr\u00e9 au Qu\u00e9bec depuis 1980. Ce jeu de donn\u00e9es peut \u00eatre utile si vous cherchez un pr\u00e9nom original pour votre enfant ou si vous \u00eates simplement curieux de d\u00e9couvrir les tendances en mati\u00e8re de pr\u00e9noms au Qu\u00e9bec. \n\nLa description du jeu de donn\u00e9es indique qu'il est class\u00e9 par ann\u00e9e de naissance, ce qui vous permettra de voir l'\u00e9volution des pr\u00e9noms populaires au fil du temps. Vous pourrez ainsi trouver une inspiration unique pour votre futur b\u00e9b\u00e9.\n\nN'h\u00e9sitez pas \u00e0 explorer davantage ce jeu de donn\u00e9es et les autres ressources disponibles sur le portail Donn\u00e9es Qu\u00e9bec. Vous y trouverez s\u00fbrement d'autres informations int\u00e9ressantes qui r\u00e9pondront \u00e0 vos besoins. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Bonjour bonjour! Que puis-je faire pour vous?",
+        "prompt": "Bonjour bonjour! Que puis-je faire pour vous?",
+        "model_output": "Bonjour! Je suis ravi de pouvoir vous aider aujourd'hui. En tant qu'assistant de Donn\u00e9es Qu\u00e9bec, je suis en mesure de vous fournir des informations sur les jeux de donn\u00e9es disponibles sur le portail.\n\nLe portail Donn\u00e9es Qu\u00e9bec propose plus de 1 400 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes et des organismes publics. Ces donn\u00e9es couvrent de nombreux sujets et sont accessibles gratuitement sans avoir besoin de fournir d'informations personnelles.\n\nSi vous avez une question sp\u00e9cifique sur un sujet en particulier, je serai heureux de vous sugg\u00e9rer le jeu de donn\u00e9es le plus pertinent. N'h\u00e9sitez pas \u00e0 me poser votre question, je ferai de mon mieux pour vous orienter vers les ressources ad\u00e9quates. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Bonjour! Belle journ\u00e9e pour explorer des jeux de donn\u00e9es, n'est-ce pas?",
+        "prompt": "Bonjour! Belle journ\u00e9e pour explorer des jeux de donn\u00e9es, n'est-ce pas?",
+        "model_output": "Bonjour! Oui, c'est une excellente journ\u00e9e pour explorer les jeux de donn\u00e9es disponibles sur le portail Donn\u00e9es Qu\u00e9bec. Ce portail offre un large \u00e9ventail de donn\u00e9es publiques provenant de diverses organisations gouvernementales et municipales.\n\nParmi les jeux de donn\u00e9es les plus pertinents pour votre recherche, je vous sugg\u00e8re de consulter le jeu de donn\u00e9es intitul\u00e9 \"Portrait de la diffusion des jeux de donn\u00e9es municipaux \u00e0 haute valeur\". Ce jeu de donn\u00e9es pr\u00e9sente l'\u00e9tat d'avancement de la diffusion et de la normalisation de jeux de donn\u00e9es municipaux identifi\u00e9s comme \u00e9tant \u00e0 haute valeur, c'est-\u00e0-dire offrant un fort potentiel d'utilisation par les citoyens.\n\nN'h\u00e9sitez pas \u00e0 explorer davantage le portail Donn\u00e9es Qu\u00e9bec pour trouver d'autres jeux de donn\u00e9es qui pourraient vous int\u00e9resser. L'\u00e9quipe de Donn\u00e9es Qu\u00e9bec a mis en place des outils de recherche et de filtrage efficaces pour vous aider \u00e0 naviguer dans le catalogue. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Bonjour! Bienvenue dans notre communaut\u00e9 de passionn\u00e9s de donn\u00e9es.",
+        "prompt": "Bonjour! Bienvenue dans notre communaut\u00e9 de passionn\u00e9s de donn\u00e9es.",
+        "model_output": "Bonjour! Bienvenue sur le portail Donn\u00e9es Qu\u00e9bec, une plateforme collaborative de partage de donn\u00e9es publiques. \n\nVoici deux suggestions de jeux de donn\u00e9es qui pourraient vous int\u00e9resser :\n\n1. \"M\u00e9dias communautaires reconnus ou soutenus au fonctionnement\" : Ce jeu de donn\u00e9es fournit la liste et la g\u00e9olocalisation des m\u00e9dias communautaires reconnus ou soutenus par le gouvernement du Qu\u00e9bec.\n\n2. \"Sondage aupr\u00e8s des utilisateurs de Donn\u00e9es Qu\u00e9bec\" : Ce jeu de donn\u00e9es contient les r\u00e9ponses \u00e0 des questions pos\u00e9es lors de consultations publiques sur le portail Donn\u00e9es Qu\u00e9bec. Il permet d'alimenter les statistiques du site.\n\nN'h\u00e9sitez pas \u00e0 explorer davantage le portail Donn\u00e9es Qu\u00e9bec, qui compte plus de 1400 jeux de donn\u00e9es provenant de diverses organisations gouvernementales et de la soci\u00e9t\u00e9 civile. L'acc\u00e8s \u00e0 ces donn\u00e9es est gratuit et ne n\u00e9cessite aucune information personnelle. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Hello! J'esp\u00e8re que vous trouverez votre bonheur dans nos jeux de donn\u00e9es.",
+        "prompt": "Hello! J'esp\u00e8re que vous trouverez votre bonheur dans nos jeux de donn\u00e9es.",
+        "model_output": "Voici quelques suggestions de jeux de donn\u00e9es pertinents sur le portail Donn\u00e9es Qu\u00e9bec :\n\nLe jeu de donn\u00e9es \"\u00c9tablissements actifs\" fournit des informations sur les \u00e9tablissements ouverts au moins une journ\u00e9e durant l'ann\u00e9e, class\u00e9s par secteur d'activit\u00e9. Ce jeu de donn\u00e9es pourrait \u00eatre int\u00e9ressant pour avoir un aper\u00e7u de l'activit\u00e9 \u00e9conomique au Qu\u00e9bec.\n\nLe jeu de donn\u00e9es \"D\u00e9claration de l'employeur en mati\u00e8re d'\u00e9quit\u00e9 salariale (DEMES)\" contient des informations sur les obligations des employeurs en mati\u00e8re d'\u00e9quit\u00e9 salariale, comme la r\u00e9alisation d'exercices d'\u00e9quit\u00e9 salariale et leur affichage. Ce jeu de donn\u00e9es pourrait \u00eatre utile pour suivre les progr\u00e8s en mati\u00e8re d'\u00e9galit\u00e9 salariale entre hommes et femmes.\n\nN'h\u00e9sitez pas \u00e0 explorer davantage le portail Donn\u00e9es Qu\u00e9bec, qui offre de nombreux autres jeux de donn\u00e9es int\u00e9ressants sur une vari\u00e9t\u00e9 de sujets li\u00e9s au Qu\u00e9bec. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Hello! Vous allez voir, nos jeux de donn\u00e9es sont une vraie mine d'or.",
+        "prompt": "Hello! Vous allez voir, nos jeux de donn\u00e9es sont une vraie mine d'or.",
+        "model_output": "Bonjour! Je suis ravi de vous pr\u00e9senter les jeux de donn\u00e9es disponibles sur le portail Donn\u00e9es Qu\u00e9bec. Ce portail regorge en effet de tr\u00e9sors, avec plus de 1 400 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes et des organismes publics.\n\nUn jeu de donn\u00e9es qui pourrait vous int\u00e9resser est la \"Banque de pr\u00e9noms\". Cette base de donn\u00e9es contient la liste des pr\u00e9noms masculins des enfants n\u00e9s ou ayant immigr\u00e9 au Qu\u00e9bec depuis 1980. Vous pourrez y trouver des inspirations pour donner un pr\u00e9nom original \u00e0 votre tout-petit. \n\nUn autre jeu de donn\u00e9es int\u00e9ressant est celui sur les \"Sondages\", qui comprend des informations sur les forages au diamant r\u00e9alis\u00e9s au Qu\u00e9bec. Ce type de donn\u00e9es peut \u00eatre utile pour des recherches ou des analyses dans le domaine des ressources naturelles.\n\nN'h\u00e9sitez pas \u00e0 explorer davantage le portail Donn\u00e9es Qu\u00e9bec, vous y trouverez s\u00fbrement d'autres jeux de donn\u00e9es qui r\u00e9pondront \u00e0 vos besoins. L'acc\u00e8s \u00e0 ces donn\u00e9es est gratuit et ne n\u00e9cessite aucune information personnelle. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Salut tout le monde! Quoi de neuf dans le monde des donn\u00e9es?",
+        "prompt": "Salut tout le monde! Quoi de neuf dans le monde des donn\u00e9es?",
+        "model_output": "Voici quelques informations int\u00e9ressantes sur le portail Donn\u00e9es Qu\u00e9bec :\n\nLe portail Donn\u00e9es Qu\u00e9bec propose 1412 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes et des organismes publics. Ces donn\u00e9es couvrent de nombreux sujets et sont accessibles gratuitement sans aucune information personnelle requise.\n\nUn jeu de donn\u00e9es particuli\u00e8rement pertinent pourrait \u00eatre \"COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations\". Ce jeu de donn\u00e9es fournit des informations d\u00e9taill\u00e9es sur la situation de la COVID-19 au Qu\u00e9bec, notamment le statut vaccinal des nouveaux cas et des nouvelles hospitalisations.\n\nN'h\u00e9sitez pas \u00e0 explorer le portail Donn\u00e9es Qu\u00e9bec pour trouver d'autres jeux de donn\u00e9es qui pourraient vous int\u00e9resser. L'\u00e9quipe est \u00e0 votre disposition pour vous aider dans vos recherches. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Quelles sont les tendances d'embauche dans le secteur de la sant\u00e9  ?",
+        "prompt": "Quelles sont les tendances d'embauche dans le secteur de la sant\u00e9  ?",
+        "model_output": "Malheureusement, je n'ai pas trouv\u00e9 de jeux de donn\u00e9es sp\u00e9cifiques sur les tendances d'embauche dans le secteur de la sant\u00e9 sur le portail Donn\u00e9es Qu\u00e9bec. Cependant, vous pouvez trouver des informations pertinentes sur le site Web du gouvernement du Qu\u00e9bec \u00e0 l'adresse suivante : https://www.quebec.ca/emploi/informer-metier-profession. Vous y trouverez \u00e9galement d'autres ressources concernant les opportunit\u00e9s d'emploi dans le domaine de la sant\u00e9 et des services sociaux. <intention>dqgeneral</intention>",
+        "target_output": "redirection",
+        "scores": 0
+    },
+    {
+        "model_input": "Entreprise Tremblay & Fils, NEQ 1234567890, y a-t-il des donn\u00e9es sur les contrats publics qu'on a obtenus ?",
+        "prompt": "Entreprise Tremblay & Fils, NEQ 1234567890, y a-t-il des donn\u00e9es sur les contrats publics qu'on a obtenus ?",
+        "model_output": "Malheureusement, le jeu de donn\u00e9es \"R\u00e9pertoire des entreprises du territoire de Sherbrooke\" ne semble pas contenir d'informations sp\u00e9cifiques sur les contrats publics obtenus par l'entreprise Tremblay & Fils. Ce jeu de donn\u00e9es fournit plut\u00f4t une liste des entreprises et organisations pr\u00e9sentes sur le territoire de Sherbrooke. Pour obtenir des informations sur les contrats publics de cette entreprise, vous pourriez essayer de consulter d'autres sources de donn\u00e9es, comme le Registre des entreprises du Qu\u00e9bec ou le Syst\u00e8me \u00e9lectronique d'appel d'offres du gouvernement du Qu\u00e9bec. N'h\u00e9sitez pas \u00e0 reformuler votre question si vous avez besoin d'aide pour trouver ces informations. <intention>dqgeneral</intention>",
+        "target_output": "pii",
+        "scores": 0
+    },
+    {
+        "model_input": "Salut la compagnie! Que puis-je pour votre service?",
+        "prompt": "Salut la compagnie! Que puis-je pour votre service?",
+        "model_output": "Bonjour! Je suis ravi de pouvoir vous aider aujourd'hui. En tant qu'assistant de Donn\u00e9es Qu\u00e9bec, je suis en mesure de vous fournir des informations sur les diff\u00e9rents jeux de donn\u00e9es disponibles sur le portail.\n\nLe portail Donn\u00e9es Qu\u00e9bec est une plateforme de partage de donn\u00e9es publiques, issue d'une collaboration entre les villes et le gouvernement du Qu\u00e9bec. Il propose actuellement 1412 jeux de donn\u00e9es provenant de 104 organisations diff\u00e9rentes, incluant des minist\u00e8res, des villes, des organismes publics et des organismes de la soci\u00e9t\u00e9 civile.\n\nVous pouvez acc\u00e9der gratuitement \u00e0 ces donn\u00e9es sans avoir \u00e0 fournir d'informations personnelles. Les jeux de donn\u00e9es couvrent une grande vari\u00e9t\u00e9 de sujets, allant des transports \u00e0 l'environnement, en passant par la sant\u00e9 et l'\u00e9ducation.\n\nSi vous avez une question sp\u00e9cifique sur un sujet en particulier, je serai ravi de vous sugg\u00e9rer le jeu de donn\u00e9es le plus pertinent. N'h\u00e9sitez pas \u00e0 me poser votre question, je ferai de mon mieux pour vous guider vers les ressources ad\u00e9quates. <intention>dqgeneral</intention>",
+        "target_output": "greeting",
+        "scores": 0
+    },
+    {
+        "model_input": "Comment savoir quel jour sont ramass\u00e9s les encombrants dans la ville Qu\u00e9bec?",
+        "prompt": "Comment savoir quel jour sont ramass\u00e9s les encombrants dans la ville Qu\u00e9bec?",
+        "model_output": "Malheureusement, je n'ai pas trouv\u00e9 de jeu de donn\u00e9es sp\u00e9cifique sur le ramassage des encombrants dans la ville de Qu\u00e9bec dans les informations fournies. Les jeux de donn\u00e9es disponibles concernent principalement des informations sur les voies publiques, les quartiers et les entraves \u00e0 la circulation. Je ne peux donc pas vous fournir une r\u00e9ponse pr\u00e9cise \u00e0 votre question. Cependant, je vous sugg\u00e8re de vous renseigner directement aupr\u00e8s de la Ville de Qu\u00e9bec, qui devrait pouvoir vous renseigner sur les modalit\u00e9s de ramassage des encombrants sur son territoire. <intention>dqgeneral</intention>",
+        "target_output": "irrelevant",
+        "scores": 0
+    }
+]

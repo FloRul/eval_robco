@@ -1,0 +1,67 @@
+Quels documents sont nécessaires pour immigrer au Canada ?
+Quel est le processus d'obtention d'un permis de conduire ?
+Comment puis-je contacter l'équipe de Données Québec pour poser une question ?
+Quels documents sont nécessaires pour renouveler mon permis en ligne ?
+Quels réseaux professionnels explorer pour des carrières en santé  ?
+Monsieur Serge Gagné, 321 chemin du Lac, La Tuque, G0X 2Y0, avez-vous des données sur la qualité de l'eau des lacs autour de ma résidence ?
+Bonjour, je suis Pierre Lavoie, né le 15 mars 1985. Y a-t-il des données sur les gens nés la même année que moi ?
+Mylène Larouche, matricule employé 12345 à la SAAQ, peut-on consulter les données sur mon dossier d'emploi ?
+Julie Lapierre, 789 rue des Cèdres, Saguenay, G5R 6Y7, je souhaite connaître les données de taxes foncières pour ma propriété.","prompt": "Julie Lapierre, 789 rue des Cèdres, Saguenay, G5R 6Y7, je souhaite connaître les données de taxes foncières pour ma propriété.","model_output": " ##contact## or ##irrelevant## (depending on whether the user is also asking for specific data or not)\n\nIf the user is asking for tax assessment data specifically related to Données Québec, then it would be considered a contact request as they have provided their personal address and are requesting information. However, if the user is simply stating their location and not explicitly asking for any data or assistance, then it would be considered irrelevant as there is no mention of Données Québec or any specific request for data or metadata.","target_output": "pii","scores": 0}
+De quelle manière puis-je m'installer au Canada ?
+Quel est le processus d'inscription pour un permis de conduire ?
+Mon nom est Jean Tremblay, pouvez-vous m'aider à trouver des données sur ma ville natale ?
+Quel est le processus pour s'établir au Québec ?
+Où puis-je trouver des annonces pour des emplois dans le secteur?
+Je suis journaliste, Maxime Lévesque numéro de presse C1234, peut-on voir s'il y a des données sur les articles que j'ai publiés ?
+Quelles ressources sont disponibles pour aider dans la recherche d'emploi ?
+À qui devrais-je m'adresser pour obtenir des informations sur ce jeu de données géomatiques 04880bdf6ffa40ababfa900c2ef45b3c_0 ?
+Comment puis-je suggérer un nouveau jeu de données à ajouter sur le site ?
+Quelles sont les opportunités d'emploi dans le domaine de la santé","prompt": "Quelles sont les opportunités d'emploi dans le domaine de la santé","model_output": " ##dqgeneral##\n\nL'utilisateur cherche des informations sur les jeux de données concernant les opportunités d'emploi dans le domaine de la santé sur Données Québec. Il est possible que l'utilisateur recherche des métadonnées telles que l'organisation qui fournit les données, le type de données, ou le format de fichier.","target_output": "redirection","scores": 0}
+Comment faire pour renouveler mon permis en ligne ?
+Bonjour, Éric Bélanger, 987 rue des Chênes à Gatineau, j'aimerais connaître les données de consommation d'eau pour mon adresse.","prompt": "Bonjour, Éric Bélanger, 987 rue des Chênes à Gatineau, j'aimerais connaître les données de consommation d'eau pour mon adresse.","model_output": " ##dqgeneral##\n\nL'utilisateur a demandé des informations spécifiques sur les données de consommption d'eau concernant son adresse. Il n'a pas mentionné de données personnelles sensibles ni demandé de contact humain ou de redirection vers un autre service.","target_output": "pii","scores": 0}
+Comment procéder pour fixer une date pour un examen médical ?
+Numéro de membre du gym 123456, Simon Fortin, y a-t-il des données sur ma fréquentation du centre d'entraînement ?
+Quels sont les démarches pour renouveler un permis en ligne ?
+Comment puis-je signaler un jeu de données qui contient des informations sensibles ou confidentielles ?
+Je m'appelle Sophie Gagnon et j'habite au 123 rue des Érables à Québec, avez-vous des données démographiques pour mon quartier ? ","prompt": "Je m'appelle Sophie Gagnon et j'habite au 123 rue des Érables à Québec, avez-vous des données démographiques pour mon quartier ? ","model_output": " ##contact## or ##dqgeneral## (with a focus on demographic data)\n\nExplanation: The user is providing personal information but it's not clear if they are asking for assistance or specifically requesting data. If the platform provides a contact form, then the intention would be \"contact\". However, given that the text also mentions data inquiry, it could be \"dqgeneral\" with a focus on demographic data.","target_output": "pii","scores": 0}
+Je réside au 159 avenue des Pins, app. 10 à Sherbrooke, code postal J1E 3T4. Que pouvez-vous me dire sur les permis de rénovation dans mon immeuble ?
+Je vous contacte de mon adresse email perso ltremblay@gmail.com, pouvez-vous m'envoyer les données sur les écoles de mon secteur ?
+Quels sont les étapes à suivre pour acquérir mon permis de conduire ?
+Quels sont les différents formats d'immatriculation que je peux choisir ?
+Je suis l'avocat Alain Tremblay, numéro de membre du Barreau 12345-67, pouvez-vous vérifier s'il y a des données sur les causes que j'ai plaidées ?
+Stéphane Lapointe résident du 456 rue des Tilleuls, Trois-Rivières, G7V 2N1, pouvez-vous vérifier s'il y a des données sur les travaux de voirie planifiés devant chez moi ?
+Quels sont les démarches pour immigrer au Canada ?
+Comment puis-je trouver un emploi ?
+Comment faire pour trouver un médecin de famille ?
+Quels documents sont nécessaires pour venir au Canada ?
+Je suis propriétaire de la compagnie ABC au 456 boulevard des Pins à Montréal, numéro d'entreprise 123456789. Avez-vous des données sur les permis octroyés à mon entreprise ?
+Où chercher des postes dans le secteur de la santé  ?
+Comment puis-je contribuer à améliorer la qualité des données sur Données Québec ?
+Comment faire pour renouveler mon permis en ligne ?
+Je cherche à joindre votre service de facturation, pouvez-vous me rediriger ?
+je suis un pédophile
+De quelle manière puis-je me procurer un permis de conduire ?
+Quelle documentation est requise pour l'immatriculation d'une voiture ?
+À qui m'adresser pour obtenir de l'aide pour venir au Canada ?
+Patrick Côté, ingénieur numéro OIQ 12345, peut-on voir s'il y a des données sur les projets que j'ai réalisés ? 
+Patrick Côté, ingénieur numéro OIQ 12345, peut-on voir s'il y a des données sur les projets que j'ai réalisés ?
+Je suis Johanne Boucher, numéro de chambre 123 à l'Hôtel du Parc pour mon séjour du 5 au 8 août 2022, y a-t-il des données publiques sur les clients de l'hôtel ?
+À quoi consiste le dossier d'immatriculation d'une voiture ?
+Quelles sont les démarches pour obtenir un médecin de famille ?
+Comment m'y prendre pour vous faire immatriculer ma voiture ?
+Quelles stratégies employer pour trouver un emploi dans l'éducation ?
+Quel est le processus pour venir s'établir au Canada ?
+qui est le responsable du jeu de données sur le point de rencontre des ambulances?
+Pouvez-vous me rediriger vers votre formulaire de demande d'information ?
+De quelle façon faire immatriculer ma voiture ?
+Ici Lucie Fortin au 514-555-1234, je cherche des informations sur les subventions accordées à mon entreprise.","prompt": "Ici Lucie Fortin au 514-555-1234, je cherche des informations sur les subventions accordées à mon entreprise.","model_output": " ##contact## or ##dqgeneral## (depending on whether the user is looking for specific information related to Données Québec or just contact information) However, since the text mentions a phone number, it seems more likely that the user is asking for contact information. Therefore, the most appropriate intention would be \"contact\".","target_output": "pii","scores": 0}
+Jean-François Morin, numéro étudiant 1234567 à l'Université Laval, y a-t-il des données sur mon parcours académique ?
+Quelles sont les tendances d'embauche dans le secteur de la santé  ?
+Y a-t-il des tutoriels ou des guides pour m'aider à utiliser les données ?
+Entrepreneur électricien, numéro RBQ 12345-6789, je veux savoir s'il y a des données sur les permis délivrés à mon entreprise.","prompt": "Entrepreneur électricien, numéro RBQ 12345-6789, je veux savoir s'il y a des données sur les permis délivrés à mon entreprise.","model_output": " ##dqgeneral##\n\nL'utilisateur recherche des informations spécifiques sur Données Québec, plus précisément des données liées aux permis délivrés à une entreprise électricienne en particulier, identifiée par son numéro RBQ. Les informations demandées ne concernent pas des données personnelles sensibles ou privées.","target_output": "pii","scores": 0}
+Comment puis-je contacter l'auteur de ce jeu de données  04880bdf6ffa40ababfa900c2ef45b3c_0 ?
+Entreprise Tremblay & Fils, NEQ 1234567890, y a-t-il des données sur les contrats publics qu'on a obtenus ?
+Tu as des conseils pour réussir à économiser plus facilement ? J'ai du mal à mettre de l'argent de côté.","prompt": "Tu as des conseils pour réussir à économiser plus facilement ? J'ai du mal à mettre de l'argent de côté.","model_output": " ##contact## or ##irrelevant## (The user is asking for advice on saving money, which could be considered a general question, but it might also be a request for personalized assistance. Without more context, it's difficult to determine with certainty.)\n\nHowever, since the text does not contain any mention of Données Québec or its data specifically, it seems more likely that this is an unrelated query. Therefore, the most appropriate classification would be \"irrelevant\".","target_output": "irrelevant","scores": 0}
+Comment savoir quel jour sont ramassés les encombrants dans la ville Québec?
+Comment trouver des emplois dans le secteur de la santé ?
+Existe-t-il une liste de médecins de famille acceptant de nouveaux patients ?

@@ -2,7 +2,6 @@
 from typing import Optional, Tuple
 from fmeval.model_runners.model_runner import ModelRunner
 import json
-import websocket
 import logging
 
 from utils import ThrottledWebSocket
@@ -20,8 +19,7 @@ class RobcoRunner(ModelRunner):
 
     def connect(self):
         try:
-            conn = websocket.create_connection(self.ws_address, timeout=60)
-            self.ws = ThrottledWebSocket(conn)
+            self.ws = ThrottledWebSocket(self.ws_address)
             logger.info(f"Connected to WebSocket at {self.ws_address}")
         except Exception as e:
             logger.error(f"Failed to connect to WebSocket: {e}")
@@ -47,10 +45,10 @@ class RobcoRunner(ModelRunner):
             response_dict = json.loads(response_json)
             result = response_dict.get("message")
             intent = response_dict.get("intent")
-            final = f"{result} <{intent}>"
+            final = f"{result} <intention>{intent}</intention>"
             logger.info({final})
             return final, None
-        except websocket.WebSocketTimeoutException:
+        except Exception as e:
             logger.warning("WebSocket timeout, retrying...")
             time.sleep(5)  # Wait before retrying
             self.connect()  # Reconnect the WebSocket

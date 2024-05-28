@@ -12,31 +12,43 @@ from fmeval.eval_algorithms.classification_accuracy import (
 )
 from fmeval.data_loaders.data_config import DataConfig
 from fmeval.eval_algorithms.eval_algorithm import EvalAlgorithmInterface
-from robco_runner import RobcoRunner
 from utils import csv_to_jsonl, jsonl_to_csv
 import dotenv
 from dotenv import load_dotenv
 import re
-
+from runners.ollama_runner import OllamaRunner
+from runners.robco_runner import RobcoRunner
+from runners.bedrock_runner import BedrockRunner
 
 import re
+from utils import combine_from_folder
+from fmeval.model_runners.model_runner import ModelRunner
 
 
 def classification_converter(input: str, labels: list[str]) -> str:
-    # capture all occurrences of the intent that should be between < and >
-    matches = re.findall("<(.*?)>", input)
-    detected_intent = matches[-1] if matches else "default"
-    return detected_intent if detected_intent in labels else "default"
+    matches = re.findall("<intention>(.*?)</intention>", input)
+    if len(matches) == 0:
+        return "irrelevant"
+    else:
+        for match in matches:
+            if match in labels:
+                return match
+    return "irrelevant"
 
 
-def run_test(config: DataConfig = None) -> None:
-    ws_address = os.environ.get("WS_ADDRESS")
-    model_runner = RobcoRunner(ws_address=ws_address)
+def run_test(runner: ModelRunner, config: DataConfig = None) -> None:
 
-    valid_labels = ["default", "dqdataset", "dqgeneral"]
+    valid_labels = [
+        "irrelevant",
+        "pii",
+        "dqgeneral",
+        "greeting",
+        "redirection",
+        "contact",
+    ]
 
     algos: list[EvalAlgorithmInterface] = [
-        QAAccuracy(QAAccuracyConfig()),
+        # QAAccuracy(QAAccuracyConfig()),
         ClassificationAccuracy(
             ClassificationAccuracyConfig(
                 valid_labels=valid_labels,
@@ -47,39 +59,38 @@ def run_test(config: DataConfig = None) -> None:
 
     for algo in algos:
         res = algo.evaluate(
-            model=model_runner,
+            model=runner,
             save=True,
             dataset_config=config,
-            num_records=60,
+            num_records=1000,
         )
         print(res)
 
 
 def main():
-    # csv_to_jsonl(
-    #     "mcn_test_env_test\working_dataset.csv", "mcn_test_env_test/test.jsonl"
-    # )
-    # list files in ./results folder
-    # files = os.listdir("mcn_test_env_test/results")
-    # for file in files:
-    #     jsonl_to_csv(
-    #         f"mcn_test_env_test/results/{file}", f"mcn_test_env_test/results/{file}.csv"
-    #     )
     load_dotenv()
     os.environ["EVAL_RESULTS_PATH"] = "./src/results"
-    os.environ["PARALLELIZATION_FACTOR"] = "2"
-    os.environ["WS_THROTTLE"] = "0.5"
+    os.environ["PARALLELIZATION_FACTOR"] = "18"
+    os.environ["WS_THROTTLE"] = "0.2"
 
+    path = "src/data/working_dataset_with_intent.jsonl"
+
+    # with open(path, "w", encoding="utf8") as f:
+    #     f.writelines(combine_from_folder("src/datasets/master_datasets", n=40))
     config = DataConfig(
-        dataset_name="custom_dataset",
-        dataset_uri="src/datasets/working_dataset_with_intent.jsonl",
+        dataset_name="ds_with_intent",
+        dataset_uri=path,
         dataset_mime_type="application/jsonlines",
         model_input_location="Question",
-        target_output_location="Reponse",
-        category_location="Intent",
+        target_output_location="Intent",
     )
 
-    run_test(config=config)
+    ollama_runner = OllamaRunner()
+    ws_address = os.environ.get("WS_ADDRESS")
+    robco_runner = RobcoRunner(ws_address=ws_address)
+    bedrock_runner = BedrockRunner()
+
+    run_test(runner=robco_runner, config=config)
 
 
 if __name__ == "__main__":

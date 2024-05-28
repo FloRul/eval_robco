@@ -1,1 +1,7 @@
 ﻿fmeval
+boto3
+langchain
+ollama
+websockets
+python-dotenv
+langchain-aws
